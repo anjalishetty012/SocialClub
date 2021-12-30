@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".EditProfile">
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="118dp"
+        android:layout_height="57dp"
+        android:background="@drawable/round"
+
+        android:text="SAVE"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:backgroundTint="#b10060"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <ImageView
+        android:id="@+id/profileimage2"
+        android:layout_width="145dp"
+        android:layout_height="138dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/profilephone2"
+        android:layout_width="282dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/lato_black"
+        android:hint="Phone Number"
+        android:textColor="#ffffff"
+        android:textColorHint="#62FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <EditText
+        android:id="@+id/profileemail2"
+        android:layout_width="282dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/lato_black"
+        android:hint="Email"
+        android:textColor="#ffffff"
+        android:textColorHint="#62FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/profilename2"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
+
+        android:fontFamily="@font/lato_black"
+        android:hint="Name"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textColorHint="#62FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

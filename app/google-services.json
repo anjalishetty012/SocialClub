@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146306083437",
+    "project_id": "socialclub-ce00f",
+    "storage_bucket": "socialclub-ce00f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146306083437:android:300c31d53e59230d956d64",
+        "android_client_info": {
+          "package_name": "com.example.socialclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146306083437-c9p35jh663ee76d7iu9kgc37d4ftu0h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjEb9TOei_IuWVVrz90t3WoTzwAHz6whc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146306083437-c9p35jh663ee76d7iu9kgc37d4ftu0h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

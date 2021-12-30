@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/activity_edit_profile.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/activity_friendslist.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/activity_info_interest.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/activity_main.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/activity_view_friend.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/appbar_chat.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/fragment_home.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/fragment_interests.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/fragment_profile.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/list_layout.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/singleview_friend.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/layout/singleview_sms.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/Anjali Shetty/AndroidStudioProjects/SocialClub/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://schemas.android.com/apk/res/android" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w6"
+
+    tools:context=".home">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="359dp"
+        android:layout_height="27dp"
+
+        android:gravity="bottom"
+        android:text="Select the things you like"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/c1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <CheckBox
+        android:id="@+id/c9"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Lifestyle"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/fav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckBox
+        android:id="@+id/c2"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Music"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+
+    <EditText
+        android:id="@+id/fav"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:hint="Mention anything that you like"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#7CFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckBox
+        android:id="@+id/c6"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Nature"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="11dp"
+
+
+        android:background="@drawable/round"
+
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Food"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#000000"
+        android:textCursorDrawable="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+
+    <CheckBox
+        android:id="@+id/c8"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Animals"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/fav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckBox
+        android:id="@+id/c7"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Finance"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <CheckBox
+        android:id="@+id/c4"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Gaming"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckBox
+        android:id="@+id/c5"
+        android:layout_width="159dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#31B5E6F5"
+        android:fontFamily="@font/aclonica"
+        android:text="Art"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/explore"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="92dp"
+
+
+        android:background="@drawable/round"
+        android:fontFamily="@font/lato_black"
+        android:text="Explore"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#82FE0190"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginEnd="140dp"
+        android:background="@drawable/round"
+        android:fontFamily="@font/lato_black"
+
+
+        android:text="DONE"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#82FE0190"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
